@@ -1,10 +1,10 @@
 # pfindMultiProcessing
 ## Makefile : build script
 ### 'make' command builds pfind.c to an executable file 'pfind'
-+ gcc -W -Wall -o pfind pfind.c
++ gcc -W -Wall -pthread -o pfind pfind.c
 #### 'make pfind_debug; comand build debug mode for pfind.c to an executable file 'pfind_debug'
 + only in master branch
-+ gcc pfind.c -W -Wall -DDEBUG -o pfind_debug pfind.c
++ gcc pfind.c -W -Wall -pthread -DDEBUG -o pfind_debug pfind.c
 ### 'make clean' command automatically removes files (to be used after execution is done) 
 #### removed file : pfind, pfind_debug, tasks, results
 + rm pfind pfind_debug tasks results

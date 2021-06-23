@@ -1,7 +1,7 @@
 #Makefile
 
 CC = gcc
-CFLAGS = -W -Wall
+CFLAGS = -W -Wall -pthread
 TARGET = tfind
 DTARGET = tfind_debug
 OBJECTS = tfind.c
