@@ -11,11 +11,9 @@
 ### step 1 : 'make'
 ### step 2 : ./pfind [<option>]* <dir> [<keyword>]+
 + existing opetions :
-+ -p ; chooses number of worker process ; a number between 1 and 8 should come next after option ; [1 < N < 8] ; default 2
-+ -c ; matches word in case-insensitive way ; default case-sensitive 
-+ -a ; prints absolute path ; default relative path
++ -t ; chooses number of worker process ; a number between 1 and 16 should come next after option ; [0 < N < 16] ; default 1
 + directory in current directory no need '/'
 + directory not in current directory need absolute path name to be opened and search
 + keyword should be atleast 1 word, with space between each words.
 ### step 3 : 'make clean'
-## video link : https://youtu.be/jeE1SS3wNNQ
+## video link : 
