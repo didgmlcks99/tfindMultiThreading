@@ -9,7 +9,7 @@
 #### removed file : pfind, pfind_debug, tasks, results
 + rm pfind pfind_debug tasks results
 ### step 1 : 'make'
-### step 2 : ./pfind [<option>]* <dir> [<keyword>]+
+### step 2 : ./tfind -t <num> <dir> [<keyword>]+
 + existing opetions :
 + -t ; chooses number of worker process ; a number between 1 and 16 should come next after option ; [0 < N < 16] ; default 1
 + directory in current directory no need '/'
